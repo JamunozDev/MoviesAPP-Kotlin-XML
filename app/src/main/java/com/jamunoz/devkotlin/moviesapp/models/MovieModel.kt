@@ -2,7 +2,7 @@ package com.jamunoz.devkotlin.moviesapp.models
 
 import com.google.gson.annotations.SerializedName
 
-data class MovieModel(
+data class  MovieModel(
     @SerializedName("id")
     var id: String,
     @SerializedName("original_title")
